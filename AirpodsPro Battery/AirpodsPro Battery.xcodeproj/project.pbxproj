@@ -10,6 +10,7 @@
 		A34BB46F3EBC83AA782B6A38 /* Pods_AirpodsPro_Battery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAECABB81B19FB3F4F3624E /* Pods_AirpodsPro_Battery.framework */; };
 		D904C6472747AB94009856C5 /* NSScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C6462747AB94009856C5 /* NSScreen+Extension.swift */; };
 		D904C64C274BD30A009856C5 /* battery-airpods-monterey.sh in Resources */ = {isa = PBXBuildFile; fileRef = D904C64B274BD309009856C5 /* battery-airpods-monterey.sh */; };
+		D90CA17127FEED0F00466488 /* ProcessInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CA17027FEED0F00466488 /* ProcessInfo+Extension.swift */; };
 		D94F607526D2A54A0086CF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F9FF81256838890086120E /* Assets.xcassets */; };
 		D957E013274E6658007F940C /* System+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957E012274E6658007F940C /* System+Extension.swift */; };
 		D957E014274E6658007F940C /* System+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957E012274E6658007F940C /* System+Extension.swift */; };
@@ -111,6 +112,7 @@
 		4CD417C15AE3C9D3617883FB /* Pods-AirpodsPro Battery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirpodsPro Battery.debug.xcconfig"; path = "Target Support Files/Pods-AirpodsPro Battery/Pods-AirpodsPro Battery.debug.xcconfig"; sourceTree = "<group>"; };
 		D904C6462747AB94009856C5 /* NSScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSScreen+Extension.swift"; sourceTree = "<group>"; };
 		D904C64B274BD309009856C5 /* battery-airpods-monterey.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "battery-airpods-monterey.sh"; sourceTree = "<group>"; };
+		D90CA17027FEED0F00466488 /* ProcessInfo+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProcessInfo+Extension.swift"; sourceTree = "<group>"; };
 		D957E012274E6658007F940C /* System+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "System+Extension.swift"; sourceTree = "<group>"; };
 		D99B875326A984A90036C56F /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
 		D99B875526A9DC910036C56F /* PreferenceSettingsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceSettingsWindow.swift; sourceTree = "<group>"; };
@@ -388,6 +390,7 @@
 				EBFE03A523A36356006095DB /* Bundle+Versioning.swift */,
 				D904C6462747AB94009856C5 /* NSScreen+Extension.swift */,
 				D957E012274E6658007F940C /* System+Extension.swift */,
+				D90CA17027FEED0F00466488 /* ProcessInfo+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -678,6 +681,7 @@
 				EBC7AD5923867D9400A53E83 /* JCGGProgressBar.swift in Sources */,
 				D99B875426A984A90036C56F /* DateUtil.swift in Sources */,
 				EB8E8E38238DBDD800EBC5ED /* BashExecutor.swift in Sources */,
+				D90CA17127FEED0F00466488 /* ProcessInfo+Extension.swift in Sources */,
 				D9A98BAC26D253EF0035A142 /* DeviceType.swift in Sources */,
 				EBC7AD412386769700A53E83 /* StatusMenuController.swift in Sources */,
 				D9F95B76268F3B6F0066565A /* AppleScriptExecutor.swift in Sources */,

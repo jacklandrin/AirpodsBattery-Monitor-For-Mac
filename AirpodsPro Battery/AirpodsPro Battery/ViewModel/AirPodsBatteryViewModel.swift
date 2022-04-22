@@ -58,7 +58,11 @@ class AirPodsBatteryViewModel: BluetoothAirpodsBatteryManagementProtocol {
     var fullStatusMessage: String {
         if !listeningNoiseMode.isEmpty
             && !displayStatusMessage.isEmpty {
+            if(ProcessInfo().machineHardwareName == .x86_64) {
             return "\(displayStatusMessage) - \(listeningNoiseMode)"
+            } else {
+                return "\(displayStatusMessage)"
+            }
         } else {
             return displayStatusMessage
         }
